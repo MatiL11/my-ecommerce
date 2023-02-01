@@ -1,7 +1,7 @@
 import ItemDetail from '../ItemDetailContainer/ItemDetail';
 import React, { useEffect, useState} from 'react';
-import { products } from '../../mock/products';
 import { useParams } from 'react-router-dom';
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
 
 export const ItemDetailContainer = () => {
     
@@ -10,14 +10,11 @@ export const ItemDetailContainer = () => {
     const { detalleId } = useParams();
 
     useEffect(() => {
-        const getData = new Promise((resolve => {
-            setTimeout(() => {
-                resolve(products);
-            }, 2000);
-        }));
-        getData.then((res) => setData(res.find(product => product.id === parseInt(detalleId))));
-        
-    }, []);
+        const querydb = getFirestore();
+        const queryDoc = doc(querydb, 'products', detalleId);
+        getDoc(queryDoc)
+            .then(res => setData({id: res.id, ...res.data()})) 
+    }, [detalleId]);
 
     return (
         <div>
