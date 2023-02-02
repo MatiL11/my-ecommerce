@@ -23,8 +23,7 @@ const Cart = () => {
         const ordersCollection = collection(db, 'orders');
         addDoc(ordersCollection, order)
             .then(({id}) => console.log(id))
-        
-
+    
     }
 
     if (cart.length === 0) {
