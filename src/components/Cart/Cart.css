@@ -3,15 +3,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f8f8f8;
-    height: 100vh;
+    height: 100%;
     padding: 20px;
+    background-color:   #f8f8f8;
+}
+
+.cart__products{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 1400px;
+    height: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .cart__title {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 20px;
+    max-height: fit-content;
 }
 
 .cart__empty{

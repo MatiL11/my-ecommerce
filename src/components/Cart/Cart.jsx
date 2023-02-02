@@ -38,7 +38,7 @@ const Cart = () => {
     return (
         <div className="cart__container">
             <h1 className="cart__title"> Tus productos</h1>
-            <div className="cart__text">
+            <div className="cart__products">
                 {cart.map(product => <ItemCart key={product.id} product={product} />)}
             </div>
             <h2>Total: ${totalPrice()}</h2>

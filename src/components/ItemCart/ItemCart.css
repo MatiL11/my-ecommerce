@@ -1,14 +1,14 @@
-.itemcart {
+ .itemcart {
+    padding-top: 1rem; 
     display: flex;
-    border-bottom: 1px solid gray;
-    max-width: 500px;
-    margin: 1rem auto;
-}
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
 
-.itemcart, img {
-    width: 400px;
-    margin-right: 1rem; 
-}
+ .itemcart, img {
+    width: 40%;
+} 
 
 .btn__delete{
     background-color: black;
@@ -19,4 +19,14 @@
     font-size: 15px;
     font-weight: 600;
     padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.prduct__properties{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    padding: 20px;
 }
