@@ -4,7 +4,32 @@
 }
 
 .product img {
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 400px;
     object-fit: cover;
+    margin: auto;
+}
+
+.btn__product{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn__product:hover{
+    background-color: lightgrey;
+    color: #000;
+    transition: ease-in-out 0.3s;
+}
+
+.img__item {
+    border: #000 1px solid;
 }

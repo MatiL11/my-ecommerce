@@ -9,3 +9,14 @@
     width: 400px;
     margin-right: 1rem; 
 }
+
+.btn__delete{
+    background-color: black;
+    border: 1px solid;
+    border-color:black;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+}

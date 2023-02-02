@@ -3,6 +3,7 @@ import TextItemList from "./TextItemList";
 import ItemList from "./ItemList";
 import { useParams } from "react-router-dom";
 import { getFirestore, collection, getDocs, where, query } from "firebase/firestore";
+import "./ItemListContainer.css";
 
 export const ItemListContainer = ({texto}) => {
     
@@ -26,10 +27,13 @@ export const ItemListContainer = ({texto}) => {
         
 
     return (
-        <>
+        <div className="itemlist__container">
             <TextItemList greeting={texto}/>
-            <ItemList data={data} />
-        </>
+            <div className="data__container">
+                <ItemList data={data} />
+            </div>
+            
+        </div>
         );
 }
 

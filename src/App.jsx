@@ -19,7 +19,7 @@ function App() {
               <Routes>
                 <Route 
                   path='/' 
-                  element={<ItemListContainer texto='¡Bienvenido, aca encontraras productos exlusivos de las mejores marcas!'/>
+                  element={<ItemListContainer texto='¡Productos exlusivos de las mejores marcas!'/>
                   }
                 />
 
