@@ -15,4 +15,4 @@ Aqui veremos la barra de navegacion y todos los productos de la pagina y podremo
 ###Tees
 
 Podremos ver la categoria de tees completa
-![Imagen 1](image.png)
+![Imagen 1](/imagenes/image.png)
