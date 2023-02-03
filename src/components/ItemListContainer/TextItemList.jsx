@@ -1,10 +1,7 @@
-import React from 'react'
+import React from "react";
 
-export const TextItemList = ({greeting}) => {
+export const TextItemList = ({ greeting }) => {
+  return <h1>{greeting}</h1>;
+};
 
-    return (
-        <h1>{greeting}</h1>
-    )
-}
-
-export default TextItemList
+export default TextItemList;

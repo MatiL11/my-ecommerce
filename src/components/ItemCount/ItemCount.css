@@ -1,54 +1,54 @@
-.decrease__button{
-    display: inline-block;
-    font-size: 1rem;
-    margin:1rem 0;
-    font-weight: bold;
-    width: fit-content;
-    background-color: #000;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: .4rem .4rem;
-    cursor: pointer;
+.decrease__button {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-weight: bold;
+  width: fit-content;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 0.4rem;
+  cursor: pointer;
 }
 
-.increase__button{
-    display: inline-block;
-    font-size: 1rem;
-    margin:1rem 0;
-    font-weight: bold;
-    width: fit-content;
-    background-color: #000;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: .4rem .4rem;
-    cursor: pointer;
+.increase__button {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-weight: bold;
+  width: fit-content;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 0.4rem;
+  cursor: pointer;
 }
 
-.count__item{
-    display: inline-block;
-    font-size: 1rem;
-    margin:1rem 0;
-    font-weight: bold;
-    width: fit-content;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    padding: .3rem .3rem;
-    cursor: pointer;
+.count__item {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-weight: bold;
+  width: fit-content;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3rem 0.3rem;
+  cursor: pointer;
 }
 
-.add__product{
-    display: block;
-    font-size: 1rem;
-    margin:1rem 0;
-    font-weight: bold;
-    width: fit-content;
-    background-color: #000;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: .5rem .5rem;
-    cursor: pointer;
+.add__product {
+  display: block;
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-weight: bold;
+  width: fit-content;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
 }
