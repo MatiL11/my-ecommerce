@@ -48,3 +48,5 @@ De lo contrario si el carrito contiene productos dentro los veremos reflejados e
 Al generar una orden nos llegara a firebase el id y los productos 
 
 ![imagen 7](./imagenes/image7.png)
+
+No posee un diseño avanzado de css ya que solo se evaluaba codigo javascript 
